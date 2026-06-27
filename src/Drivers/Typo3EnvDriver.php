@@ -6,7 +6,7 @@ use SourceBroker\DeployerInstance\Env;
 
 class Typo3EnvDriver
 {
-    public function getDatabaseConfig(array $dbMappingFields = null, string $absolutePathWithConfig = null): array
+    public function getDatabaseConfig(?array $dbMappingFields = null, ?string $absolutePathWithConfig = null): array
     {
         $env = new Env();
         $env->load($absolutePathWithConfig);

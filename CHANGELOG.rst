@@ -2,6 +2,11 @@
 Changelog
 ---------
 
+1.1.1
+-----
+
+1) [BUGFIX] Implicitly nullable parameter types in `getDatabaseConfig()` deprecated since PHP 8.1
+
 1.1.0
 -----
 
